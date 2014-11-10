@@ -1,13 +1,117 @@
 /* Your Website Styles */
+/* https://color.adobe.com/Java-color-theme-2749847/ */
+
+/* Changes the site background */
 body {
-	background: #eee;
+    background-image: url("../img/grey.png");
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Sets font for text on page */
+p {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #e0e0d8;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+/* Picture Styles */
+#profilepicture {
+    max-height: 620px;
+    display: inline;
+    border-radius: 10%;
+    padding: 25px 0 0 15px;
+    margin-top: -70px;
+    margin-left: 0;
+}
+
+/* Style for my name */
+header p {
+    font-weight: 900;
+    padding: 45px 0 0 50px;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #f5e1d8;
+}
+
+/* Style for header/bg behind my name */
+header {
+    background: #644c4c;
+    width: 100%;
+    height: 150px;
+    margin: -5px -30px;
+    border-radius: .5em;
+}
+
+/* Style for subheadings */
+.sectionhead {
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    color: #644c4c;
+}
+
+/* Style for bg of content */
+#main {
+    height: 100%;
+    padding: 5px 30px 15px 20px;
+    margin-top: -5px;
+    margin-right: -30px;
+    width: 890px;
+    background: #9a968b;
+    border-radius: 0 0 1em 1em;
+}
+
+#contact {
+    position: absolute;
+    top: 40px;
+    left: 800px;
+    width: 235px;
+    margin: 0 20px 10px 0;
+    float: right;
+    display: block;
 }
 
 
-div {
-	margin-top: -60px;	x 
+
+/* Style for text of main content on page */
+.content {
+    margin-top: 17px;
+    font-size: 15px;
+    text-indent: 10px;
+    padding-left: 35px;
+    color: #e0e0d8;
 }
 
+#foot {
+    font-size: 10px;
+    padding-left: 200px;
+}
+
+.link {
+    padding-top: 5px;
+}
+
+.linkimage {
+    width: 5%;
+    height: auto;
+}
+
+#email {
+    color: #000000;
+}
 
 /* Show Grid */
 .showgrid {
