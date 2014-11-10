@@ -39,7 +39,7 @@ ul {
 header p {
     font-weight: 900;
     padding: 45px 0 0 50px;
-    font-size: 40px;
+    font-size: 2.5em;
     margin-top: 40px;
     margin-left: 40px;
     color: #f5e1d8;
@@ -76,14 +76,22 @@ header {
 
 #contact {
     position: absolute;
-    top: 40px;
-    left: 800px;
+    top: 30px;
+    left: 780px;
     width: 235px;
     margin: 0 20px 10px 0;
-    float: right;
-    display: block;
+    color: #f5e1d8;
 }
 
+#contact p {
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+#contact p:first-child {
+    padding-top: 40px;
+}
 
 
 /* Style for text of main content on page */
