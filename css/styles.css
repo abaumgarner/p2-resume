@@ -25,16 +25,6 @@ ul {
     margin-top: 10px;
 }
 
-/* Picture Styles */
-#profilepicture {
-    max-height: 620px;
-    display: inline;
-    border-radius: 10%;
-    padding: 25px 0 0 15px;
-    margin-top: -70px;
-    margin-left: 0;
-}
-
 /* Style for my name */
 header p {
     font-weight: 900;
@@ -67,6 +57,18 @@ section p:first-child {
     color: #644c4c;
 }
 
+/* Formats the footer */
+footer p {
+    font-size: 10px;
+    padding-left: 200px;
+}
+
+
+
+/*
+* IDs *
+*/
+
 /* Style for bg of content */
 #main {
     height: 100%;
@@ -97,6 +99,23 @@ section p:first-child {
     padding-top: 40px;
 }
 
+/* Picture Styles */
+#profilepicture {
+    max-height: 620px;
+    display: inline;
+    border-radius: 10%;
+    padding: 25px 0 0 15px;
+    margin-top: -70px;
+    margin-left: 0;
+}
+
+#email {
+    color: #000000;
+}
+
+/*
+* Classes *
+*/
 
 /* Style for text of main content on page */
 .content {
@@ -105,11 +124,6 @@ section p:first-child {
     text-indent: 10px;
     padding-left: 35px;
     color: #e0e0d8;
-}
-
-#foot {
-    font-size: 10px;
-    padding-left: 200px;
 }
 
 .link {
@@ -121,11 +135,11 @@ section p:first-child {
     height: auto;
 }
 
-#email {
-    color: #000000;
-}
-
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
+}
+
+.first {
+    margin-left: 2.5em;
 }
