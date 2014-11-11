@@ -5,11 +5,13 @@
 body {
     background-image: url("../img/grey.png");
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 /* Sets font for text on page */
 p {
     display: block;
+    font-size: 1em;
 }
 
 a {
@@ -51,10 +53,11 @@ header {
 /* Style for subheadings */
 section p:first-child {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1.5em;
     margin-left: 20px;
     margin-bottom: 0;
     color: #644c4c;
+    text-transform: uppercase;
 }
 
 /* Formats the footer */
@@ -63,7 +66,15 @@ footer p {
     padding-left: 200px;
 }
 
+section div ul li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #e0e0d8;
+}
 
+section div ul {
+    margin-top: 0;
+}
 
 /*
 * IDs *
@@ -142,4 +153,13 @@ footer p {
 
 .first {
     margin-left: 2.5em;
+}
+
+div p.sub {
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 1.1em;
+    color: #f5e1d8;
+    font-weight: 500;
+    text-transform: none;
 }
