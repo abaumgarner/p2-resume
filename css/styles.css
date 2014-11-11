@@ -45,6 +45,10 @@ header p {
     color: #f5e1d8;
 }
 
+section p {
+    color: #e0e0d8;
+}
+
 /* Style for header/bg behind my name */
 header {
     background: #644c4c;
@@ -55,7 +59,7 @@ header {
 }
 
 /* Style for subheadings */
-.sectionhead {
+section p:first-child {
     font-weight: 700;
     font-size: 25px;
     margin-left: 20px;
