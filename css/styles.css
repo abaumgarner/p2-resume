@@ -54,7 +54,7 @@ header {
 section p:first-child {
     font-weight: 700;
     font-size: 1.5em;
-    margin-left: 20px;
+    margin-left: 1.250em;
     margin-bottom: 0;
     color: #644c4c;
     text-transform: uppercase;
@@ -162,4 +162,10 @@ div p.sub {
     color: #f5e1d8;
     font-weight: 500;
     text-transform: none;
+}
+
+.description {
+    max-width: 34em;
+    margin-left: 3.5em;
+    margin-top: 0;
 }
