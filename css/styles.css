@@ -51,7 +51,7 @@ header {
 }
 
 /* Style for subheadings */
-section p:first-child {
+section.grid_4 > p:first-child {
     font-weight: 700;
     font-size: 1.5em;
     margin-left: 1.250em;
@@ -60,21 +60,28 @@ section p:first-child {
     text-transform: uppercase;
 }
 
+p div p{
+    font-size: 1em;
+    color: #e0e0d8;
+}
+
 /* Formats the footer */
 footer p {
     font-size: 10px;
     padding-left: 200px;
 }
 
-section div ul li {
+div section ul {
+    margin-top: -1em;
+}
+
+div section ul li {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: #e0e0d8;
+    margin-left: -.5em;
 }
 
-section div ul {
-    margin-top: 0;
-}
 
 /*
 * IDs *
@@ -156,16 +163,34 @@ section div ul {
 }
 
 div p.sub {
-    margin-top: 0;
-    margin-left: 0;
+    margin-left: 1em;
     font-size: 1.1em;
     color: #f5e1d8;
     font-weight: 500;
     text-transform: none;
 }
 
-.description {
-    max-width: 34em;
+div.grid_2 {
+    margin-right: 1em;
+}
+
+div.grid_5 {
+    margin-bottom: 0em;
+}
+
+section.grid_4 p {
+    margin-top: .25em;
+    margin-left: 1em;
+}
+
+div.grid_5 p + p {
+    margin-left: 2em;
+    margin-top: -.75em;
+}
+
+p.grid_5.description {
+    max-width: 40em;
     margin-left: 3.5em;
-    margin-top: 0;
+    margin-top: -.5em;
+    margin-bottom: 1em;
 }
