@@ -223,4 +223,6 @@ section.grid_4 div.grid_4 div.grid_2 {
 
 section.grid_4 p:last-child {
     font-family: 'Inconsolata' ;
+    font-weight: 400;
+
 }
