@@ -51,13 +51,22 @@ header {
 }
 
 /* Style for subheadings */
-section.grid_4 > p:first-child {
+section.grid_4 > p:first-child,
+section.grid_12 > p:first-child {
     font-weight: 700;
     font-size: 1.5em;
     margin-left: 1.250em;
     margin-bottom: 0;
     color: #644c4c;
     text-transform: uppercase;
+}
+
+section.grid_12 > p:first-child {
+    margin-left: 13em;
+}
+
+section.grid_12 p {
+    margin-left: 18.5em;
 }
 
 p div p{
