@@ -76,8 +76,8 @@ div section ul {
 }
 
 div section ul li {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-family: 'Inconsolata' ;
+    font-weight: 400;
     color: #e0e0d8;
     margin-left: -.5em;
 }
@@ -165,7 +165,7 @@ div section ul li {
 div p.sub {
     margin-left: 1em;
     font-size: 1.1em;
-    color: #f5e1d8;
+    color: #e6d4cc;
     font-weight: 500;
     text-transform: none;
 }
@@ -186,11 +186,15 @@ section.grid_4 p {
 div.grid_5 p + p {
     margin-left: 2em;
     margin-top: -.75em;
+    font-family: 'Inconsolata' ;
+    font-weight: 400;
 }
 
 p.grid_5.description {
     max-width: 40em;
-    margin-left: 3.5em;
+    margin-left: 2em;
     margin-top: -.5em;
     margin-bottom: 1em;
+    font-family: 'Inconsolata' ;
+    font-weight: 400;
 }
