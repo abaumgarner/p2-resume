@@ -215,7 +215,7 @@ p.grid_5.description {
     font-weight: 400;
 }
 
-div#main section:nth-child(4) {
+div#main section.grid_4:nth-child(4) {
     margin-top: -21em;
 }
 
